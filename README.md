@@ -1,6 +1,6 @@
 ### DashBoard-Gaugh
 
-DashBoard_Gaugh is a lightweight and easy-to-use source for showing Vechiles or anything else running status in Real time.
+DashBoard-Gaugh is a lightweight and easy-to-use source for showing Vechiles or anything else running status in Real time.
 
 ![Screenshot](https://github.com/ssowri1/DashBoard-Gaugh/blob/master/ScreenShot.gif?raw=true)
 

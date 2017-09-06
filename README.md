@@ -1,4 +1,4 @@
-### DashBoard_Gaugh
+### DashBoard-Gaugh
 
 DashBoard_Gaugh is a lightweight and easy-to-use source for showing Vechiles or anything else running status in Real time.
 

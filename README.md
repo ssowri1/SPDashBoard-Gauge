@@ -26,6 +26,9 @@ DashBoard-Gaugh is a lightweight and easy-to-use source for showing Vechiles or 
      NotificationCenter.default.post(name: ViewController.updateFualNotifier, object: value)
      // ex: The value between 0 to 1
 
+## Authors
+
+***Ssowri1** - *Initial work* - [PurpleBooth](https://github.com/ssowri1)
 
 ## License
 

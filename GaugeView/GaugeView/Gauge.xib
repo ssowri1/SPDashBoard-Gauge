@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16C68" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="Gauge" customModule="GaugeView" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="344" height="235"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="RpmMeter" translatesAutoresizingMaskIntoConstraints="NO" id="pvr-F8-wVf">
+                    <rect key="frame" x="1" y="70" width="90" height="90"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="90" id="VjG-YO-AE4"/>
+                        <constraint firstAttribute="height" constant="90" id="pz9-AV-SGk"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="FualMeter" translatesAutoresizingMaskIntoConstraints="NO" id="YF3-Sw-b7o">
+                    <rect key="frame" x="258" y="72" width="90" height="90"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="90" id="QBn-mc-Wxc"/>
+                        <constraint firstAttribute="height" constant="90" id="gS9-td-y6W"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Needle" translatesAutoresizingMaskIntoConstraints="NO" id="lrt-cV-VdP">
+                    <rect key="frame" x="43" y="91.5" width="6" height="52"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="6" id="XRn-ZM-O5y"/>
+                        <constraint firstAttribute="height" constant="52" id="j9m-bI-ZLd"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Needle" translatesAutoresizingMaskIntoConstraints="NO" id="lEu-Km-9IK">
+                    <rect key="frame" x="291" y="91" width="6" height="52"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="6" id="9z3-Qh-Uru"/>
+                        <constraint firstAttribute="height" constant="52" id="jyg-kM-NiE"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Center" translatesAutoresizingMaskIntoConstraints="NO" id="m8O-JN-1EP">
+                    <rect key="frame" x="41" y="112.5" width="10" height="10"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="10" id="U2p-I6-hD9"/>
+                        <constraint firstAttribute="width" constant="10" id="yPy-8y-Zta"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Center" translatesAutoresizingMaskIntoConstraints="NO" id="hip-af-X2R">
+                    <rect key="frame" x="289" y="112" width="10" height="10"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="10" id="Guy-nm-Gxb"/>
+                        <constraint firstAttribute="width" constant="10" id="Z1X-dI-yhG"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SpeedoMeter" translatesAutoresizingMaskIntoConstraints="NO" id="iFm-0x-bCq">
+                    <rect key="frame" x="103" y="29" width="173" height="172"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="173" id="2GR-J0-axy"/>
+                        <constraint firstAttribute="height" constant="172" id="38r-Af-B21"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Needle" translatesAutoresizingMaskIntoConstraints="NO" id="eNt-Tm-udf">
+                    <rect key="frame" x="180" y="40" width="18" height="155"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="18" id="hl4-3g-5Eo"/>
+                        <constraint firstAttribute="height" constant="155" id="rg4-ny-aO8"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Center" translatesAutoresizingMaskIntoConstraints="NO" id="8Gc-rg-eUB">
+                    <rect key="frame" x="174" y="104" width="27" height="26"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="26" id="9bF-7a-ywK"/>
+                        <constraint firstAttribute="width" constant="27" id="F9J-tl-Rtx"/>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="27" id="Tfg-bF-8lC"/>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="26" id="pNG-Pw-r4B"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="pvr-F8-wVf" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" constant="-2.5" id="52U-se-zzO"/>
+                <constraint firstItem="8Gc-rg-eUB" firstAttribute="centerY" secondItem="iFm-0x-bCq" secondAttribute="centerY" constant="2.5" id="668-3B-ccB"/>
+                <constraint firstItem="eNt-Tm-udf" firstAttribute="centerY" secondItem="iFm-0x-bCq" secondAttribute="centerY" constant="2.5" id="6wA-Zd-0XJ"/>
+                <constraint firstItem="YF3-Sw-b7o" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="8hF-rn-eXw"/>
+                <constraint firstAttribute="trailing" secondItem="YF3-Sw-b7o" secondAttribute="trailing" constant="-4" id="Hex-Mf-vuQ"/>
+                <constraint firstItem="lEu-Km-9IK" firstAttribute="centerX" secondItem="YF3-Sw-b7o" secondAttribute="centerX" constant="-9" id="Hye-gX-YKb"/>
+                <constraint firstItem="m8O-JN-1EP" firstAttribute="centerX" secondItem="pvr-F8-wVf" secondAttribute="centerX" id="OTd-8Q-30Y"/>
+                <constraint firstItem="iFm-0x-bCq" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" constant="17.5" id="OfY-NP-gvZ"/>
+                <constraint firstItem="eNt-Tm-udf" firstAttribute="centerX" secondItem="iFm-0x-bCq" secondAttribute="centerX" constant="-0.5" id="Rsc-8g-I5I"/>
+                <constraint firstItem="8Gc-rg-eUB" firstAttribute="centerX" secondItem="iFm-0x-bCq" secondAttribute="centerX" constant="-1.5" id="ase-y7-E0H"/>
+                <constraint firstItem="hip-af-X2R" firstAttribute="centerY" secondItem="YF3-Sw-b7o" secondAttribute="centerY" id="eo5-2g-G1D"/>
+                <constraint firstItem="m8O-JN-1EP" firstAttribute="centerY" secondItem="pvr-F8-wVf" secondAttribute="centerY" constant="2.5" id="pLq-NS-2Xw"/>
+                <constraint firstItem="hip-af-X2R" firstAttribute="centerX" secondItem="YF3-Sw-b7o" secondAttribute="centerX" constant="-9" id="s4U-fn-aLF"/>
+                <constraint firstItem="lrt-cV-VdP" firstAttribute="centerY" secondItem="pvr-F8-wVf" secondAttribute="centerY" constant="2.5" id="s9C-gf-suM"/>
+                <constraint firstItem="iFm-0x-bCq" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" constant="-2.5" id="twd-jX-bQz"/>
+                <constraint firstItem="lEu-Km-9IK" firstAttribute="centerY" secondItem="YF3-Sw-b7o" secondAttribute="centerY" id="wri-X1-Hg2"/>
+                <constraint firstItem="pvr-F8-wVf" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="1" id="yd0-VI-YQx"/>
+                <constraint firstItem="lrt-cV-VdP" firstAttribute="centerX" secondItem="pvr-F8-wVf" secondAttribute="centerX" id="zJl-ew-6yI"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="imgNeedleFual" destination="lEu-Km-9IK" id="Mdu-KB-HoR"/>
+                <outlet property="imgNeedleRPM" destination="lrt-cV-VdP" id="Plu-tY-v25"/>
+                <outlet property="imgNeedleSpeed" destination="eNt-Tm-udf" id="Cxz-sS-uAI"/>
+            </connections>
+            <point key="canvasLocation" x="67" y="100.5"/>
+        </view>
+        <view contentMode="scaleToFill" id="bFe-I1-jWe">
+            <rect key="frame" x="0.0" y="0.0" width="329" height="679"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="574.5" y="72.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Center" width="45" height="44"/>
+        <image name="FualMeter" width="125" height="125"/>
+        <image name="Needle" width="22" height="170"/>
+        <image name="RpmMeter" width="125" height="125"/>
+        <image name="SpeedoMeter" width="250" height="250"/>
+    </resources>
+</document>

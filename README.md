@@ -7,7 +7,9 @@ DashBoard_Gaugh is a lightweight and easy-to-use source for showing Vechiles or 
 **USAGE** 
 
 - Drag and drop the Gaugh folder to your project and initialize it.
-- then set the frame size for your appropriate devices. and let's give the Notification name for every notifier using extention.
+- then set the frame size for your appropriate devices. 
+- let's give the Notification name for every notifier using extention.
+- You're done. Go Ahead :-)
 
 **Assign the value for Speedometer**
 

@@ -13,16 +13,18 @@ DashBoard_Gaugh is a lightweight and easy-to-use source for showing Vechiles or 
 
 **Assign the value for Speedometer**
 
-     NotificationCenter.default.post(name: ViewController.updateSpeedNotifier, object: value)   // -135 to 145
+     NotificationCenter.default.post(name: ViewController.updateSpeedNotifier, object: value)   
+     // Ex: The value between -127 to 127
             
 **Assign the value for RPM**
 
      NotificationCenter.default.post(name: ViewController.updateRPMNotifier, object: value)
+     // Ex: The value between -145 to 135
             
 **Assign the value for Fual**
 
      NotificationCenter.default.post(name: ViewController.updateFualNotifier, object: value)
-
+     // Ex: The value between 0 to 1
 
 
 ## License

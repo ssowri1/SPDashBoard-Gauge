@@ -28,7 +28,7 @@ DashBoard-Gaugh is a lightweight and easy-to-use source for showing Vechiles or 
 
 ## Authors
 
-* **Ssowri1** - *Initial work* - [Check](https://github.com/ssowri1)
+[Ssowri1](https://github.com/ssowri1)
 
 ## License
 

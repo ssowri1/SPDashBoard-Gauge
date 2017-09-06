@@ -4,7 +4,7 @@ DashBoard_Gaugh is a lightweight and easy-to-use source for showing Vechiles or 
 
 ![Screenshot](https://github.com/ssowri1/DashBoard-Gaugh/blob/master/ScreenShot.gif?raw=true)
 
-**USAGE** 
+**INSTALLATION** 
 
 - Drag and drop the Gaugh folder to your project and initialize it.
 - then set the frame size for your appropriate devices. 

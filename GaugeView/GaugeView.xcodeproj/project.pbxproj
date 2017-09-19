@@ -39,13 +39,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		99383E741F600AA300A095DE /* Gaugh */ = {
+		99383E741F600AA300A095DE /* Gauge */ = {
 			isa = PBXGroup;
 			children = (
 				996ABD361F4AAAAD00C12710 /* Gauge.swift */,
 				996ABD341F4AAA6A00C12710 /* Gauge.xib */,
 			);
-			name = Gaugh;
+			name = Gauge;
 			sourceTree = "<group>";
 		};
 		996ABD141F4AA9D100C12710 = {
@@ -68,7 +68,7 @@
 			isa = PBXGroup;
 			children = (
 				996ABD201F4AA9D200C12710 /* AppDelegate.swift */,
-				99383E741F600AA300A095DE /* Gaugh */,
+				99383E741F600AA300A095DE /* Gauge */,
 				996ABD221F4AA9D200C12710 /* ViewController.swift */,
 				996ABD241F4AA9D200C12710 /* Main.storyboard */,
 				996ABD271F4AA9D200C12710 /* Assets.xcassets */,

@@ -2,11 +2,11 @@
 
 DashBoard-Gauge is a lightweight and easy-to-use source for showing Vehicles or anything else running status in Real time.
 
-![Screenshot](https://github.com/ssowri1/DashBoard-Gaugh/blob/master/ScreenShot.gif?raw=true)
+![Screenshot](https://github.com/ssowri1/DashBoard-Gauge/blob/master/ScreenShot.gif?raw=true)
 
 **INSTALLATION** 
 
-- Drag and drop the Gaugh folder to your project and initialize it.
+- Drag and drop the Gauge folder to your project and initialize it.
 - then set the frame size for your appropriate devices. 
 - let's give the Notification name for every notifier using extention.
 - You're done. Go Ahead :-)

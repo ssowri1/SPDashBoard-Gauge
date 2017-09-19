@@ -1,6 +1,6 @@
 ### DashBoard-Gauge
 
-DashBoard-Gauge is a lightweight and easy-to-use source for showing Vehicles or anything else running status in Real time.
+DashBoard-Gauge is a lightweight and an easy-to-use source for showing Vehicles or anything else running status in Real time.
 
 ![Screenshot](https://github.com/ssowri1/DashBoard-Gauge/blob/master/ScreenShot.gif?raw=true)
 
